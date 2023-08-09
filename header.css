@@ -34,7 +34,7 @@ position: relative;
 
     }
 
-    .container__botao:checked~ .lista-menu {
+    .container__botao:checked ~ .lista-menu {
         display:block;
 
     }
@@ -47,7 +47,6 @@ position: relative;
 
     .lista-menu__titulo {
         color: var(--laranja);
-        font-weight: 700;
     }
 
     .lista-menu__link {
@@ -58,6 +57,3 @@ position: relative;
   text-transform: uppercase;
     }
     
-    .container__botao {
-        display: none;
-    }
